@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+button.meal{
+        background-color:rgb(23, 133, 206);
+        border: 4px solid rgb(23, 133, 206);
+        border-radius: 5px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: green;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}

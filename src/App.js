@@ -4,6 +4,7 @@ import './App.css'
 import {Main} from  "./component/main";
 import {Login} from  "./component/login";
 import { Signup } from "./component/signup";
+import {MyComponent} from "./component/apis";
 import { Navbar } from "./comp/navbar";
 
  function App() {
@@ -15,6 +16,7 @@ import { Navbar } from "./comp/navbar";
           <Route path="/" element={<Main />}/>
           <Route path="/Login" element={<Login />}/>
           <Route path="/signup" element={<Signup/>} />
+          <Route path="/apis" element={<MyComponent/>} />
         </Routes>
       </Router>
     </div>
