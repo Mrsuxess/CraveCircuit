@@ -44,7 +44,6 @@ export const MyComponent = () => {
                     <p>{meal.strDrinkAlternate}</p>
                     <p>{meal.strIngredients}</p>
                     <p>{meal.strInstructions}</p>
-                    
                     </div>
             ) : (
                 <p></p>

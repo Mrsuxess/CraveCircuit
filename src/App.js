@@ -6,6 +6,7 @@ import {Login} from  "./component/login";
 import { Signup } from "./component/signup";
 import {MyComponent} from "./component/apis";
 import { Navbar } from "./comp/navbar";
+import { About } from "./component/About";
 
  function App() {
   return (
@@ -17,6 +18,7 @@ import { Navbar } from "./comp/navbar";
           <Route path="/Login" element={<Login />}/>
           <Route path="/signup" element={<Signup/>} />
           <Route path="/apis" element={<MyComponent/>} />
+          <Route path="/About" element={<About/>} />
         </Routes>
       </Router>
     </div>
