@@ -7,16 +7,16 @@ export const Main = () => {
     const signInWithGoogle = async () => {
         const result = await signInWithPopup(auth, provider);
         console.log(result);
-        navigate("/apis");
+        navigate("/meals");
     };
        
     
 
     
-    return <div>
-        <h2>To Continue</h2> 
-        <h4>Sign In With Google To Continue</h4>
-    <button onClick={ signInWithGoogle }><b>Sign in with Google</b></button>
+    return <div className="nmsign">
+        
+        <center><h4>Sign In With Google To Continue</h4></center>
+   <center> <button onClick={ signInWithGoogle }><b>Sign in with Google</b></button></center>
     </div>
 
 };

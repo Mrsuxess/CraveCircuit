@@ -23,7 +23,7 @@ export const MyComponent = () => {
             <p>Get random meal by clicking below</p>
             <button className="meal" onClick={fetchRandomMeal}>Get meals</button>
             {meal ? (
-                <div>
+                <div >
                     <h2>{meal.strMeal}</h2>
                     <img src={meal.strMealThumb} alt={meal.strMeal} />
                     <p><b>Category: </b>{meal.strCategory}</p>

@@ -4,7 +4,7 @@ import './App.css'
 import {Main} from  "./component/main";
 import {Login} from  "./component/login";
 import { Signup } from "./component/signup";
-import {MyComponent} from "./component/apis";
+import {MyComponent} from "./component/meals";
 import { Navbar } from "./comp/navbar";
 import { About } from "./component/About";
 
@@ -17,7 +17,7 @@ import { About } from "./component/About";
           <Route path="/" element={<Main />}/>
           <Route path="/Login" element={<Login />}/>
           <Route path="/signup" element={<Signup/>} />
-          <Route path="/apis" element={<MyComponent/>} />
+          <Route path="/meals" element={<MyComponent/>} />
           <Route path="/About" element={<About/>} />
         </Routes>
       </Router>

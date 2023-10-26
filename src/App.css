@@ -82,4 +82,14 @@ button.meal{
   font-size: 15px;
   border-radius: 50%;
   margin-top: 15px;
+  margin-right: 20px;
+}
+.nmsign{
+     background-color: green;
+}
+.stbtn{
+  background-color:rgb(23, 133, 206);
+       border: 1px solid green;
+       border-radius: 5px;
+       color: white;
 }
